@@ -1,0 +1,20 @@
+html,
+body {
+    background-color: #b3a7a7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    background: #271343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz {
+    background: #8a5fc7;
+    width: 30rem;
+    padding: 4rem;
+}

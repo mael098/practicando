@@ -21,7 +21,6 @@ input {
     padding: 10px;
 }
 
-
 table {
     display: inline-block;
     padding: 20px;
@@ -36,7 +35,6 @@ table:hover {
     box-shadow: 0 0 20px 0 rgb(0, 0, 0);
     top: -30px;
     filter: drop-shadow(20px 30px 20px rgb(0, 0, 0));
-
 }
 
 .displaytable {
@@ -45,7 +43,6 @@ table:hover {
 
 .displaytable-cell {
     display: table-cell; /* or inline-block */
-
 }
 
 .button {
