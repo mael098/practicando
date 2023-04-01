@@ -17,4 +17,45 @@ body {
     background: #8a5fc7;
     width: 30rem;
     padding: 4rem;
+    text-align: center;
 }
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+#question {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+button {
+    background-color: #b3a7a7;
+    color: #fff;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 3rem;
+    padding: 10px;
+    margin: 10px 40px 10px;
+}
+button:hover {
+    background-color: #fff;
+    color: #271343;
+    cursor: pointer;
+}
+#progress {
+    font-size: 20px;
+}
+
+/* #choices {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
