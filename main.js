@@ -7,8 +7,9 @@ function main() {
     // @ts-ignore
     const quiz = new Quiz(questions)
     const ui = new UI()
+
     ui.showQuestion(quiz.getQuestionIndex().text)
-    ui.showChoices('asdasd', 'asdasd', 'asdasd', 'asdasd')
+    ui.showChoices(quiz.getQuestionIndex().choinces, () => console.log('something!'))
 }
 
 main()

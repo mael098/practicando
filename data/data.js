@@ -1,7 +1,7 @@
 export const data = [
     {
         question: 'cual de las siguentes opciones es no es un editor de codigo',
-        choices: ['vim', 'vscode', 'sublime', 'atom', 'word'],
+        choices: ['vim', 'vscode', 'sublime', 'atom', 'word', 'jetbrains'],
         answer: 'word',
     },
     {

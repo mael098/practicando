@@ -12,18 +12,17 @@ export class UI {
     }
     /**
      *
-     * @param {string[]} choices
+     * @param {string[]} choices choices es un array de strings
      */
 
-    showChoices(choices) {
+    showChoices(choices, callback) {
         const choicesConteiner = document.getElementById('choices')
-        console.log(choicesConteiner)
 
         for (let i = 0; i < choices.length; i++) {
             const button = document.createElement('button')
-            button.innerText = 'some button'
-
+            button.innerText = choices[i]
             button.className = button
+            button.addEventListener('click', () => callback())
 
             choicesConteiner.append(button)
         }
